@@ -10,5 +10,5 @@ function groceryTracker() {
 
     let total = grocery1 + grocery2 + grocery3;
 
-    document.getElementById('result').innerText = `The total of the groceries is: ${total}`;
+    document.getElementById('result').innerText = `The total of the groceries is $${total}`;
 }
