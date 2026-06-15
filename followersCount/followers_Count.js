@@ -4,7 +4,7 @@ function increaseCount() {
     count++;  // Increment the count by 1
     
     displayCount();  // Display the count
-    checkCountValue();  //Check count value and display messages
+    checkCountValue();  // Check count value and display messages
 }
 
 function checkCountValue() {
@@ -17,4 +17,16 @@ function checkCountValue() {
 
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count;  // Display the count in the HTML
+}
+
+function resetCount() {    
+    if(count > 0) {
+        count = 0;
+        displayCount();  // Update UI
+        alert("Followers count reset");
+        console.log("Current count:", count);
+    } else {
+        alert("No followers counted");
+        console.log("Current count:", count);
+    }
 }
