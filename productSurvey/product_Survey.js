@@ -10,7 +10,7 @@ const feedback = document.getElementById('feedbackText').value;
 const submitButton=document.getElementById('submitBtn');
 submitButton.onclick = submitFeedback;
 
-function submitFeedback() {
+function submitFeedback() { 
 
     alert('Thank you for your valuable feedback')
 
