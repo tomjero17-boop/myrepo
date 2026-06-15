@@ -9,7 +9,3 @@ function calculateArea() {
 
     document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
 }
-
-function groceryTracker() {
-    
-}
